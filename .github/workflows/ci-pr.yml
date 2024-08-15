@@ -72,7 +72,7 @@ jobs:
           path: |
             **/node_modules
             packages/**/build
-          key: ci-${{ hashFiles('**/package-lock.json') }}
+          key: ci-pr-${{ hashFiles('**/package-lock.json') }}
 
       - name: Lint Commits
         run: |
