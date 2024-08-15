@@ -18,7 +18,7 @@ const serverApplication = new BaseServerApplication({
 	config,
 	database,
 	logger,
-	title: "TrackMates",
+	title: "BeBalance",
 });
 
 export { serverApplication };
